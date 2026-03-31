@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk Kami | Lailla Bakery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Lailla Bakery</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="halaman2.html">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-5">Menu Best Seller Kami Mantap</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="images.jpg" class="card-img-top" alt="Roti Gandum">
+                    <div class="card-body">
+                        <h5 class="card-title">Roti Gandum Madu</h5>
+                        <p class="card-text">Tekstur lembut denga rasa manis alami dari madu mantap .</p>
+                        <p class="fw-bold text-success">Rp 25.000</p>
+                        <button class="btn btn-outline-dark btn-sm w-100" onclick="pesan()">Tambah ke Keranjang Yuks</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="images (1).jpg" class="card-img-top" alt="Croissant">
+                    <div class="card-body">
+                        <h5 class="card-title">Butter Croissant</h5>
+                        <p class="card-text">Lapisannya yang renyah dan rasa mentega yang lumer di mulut pasti ketagihan deh xixi.</p>
+                        <p class="fw-bold text-success">Rp 18.000</p>
+                        <button class="btn btn-outline-dark btn-sm w-100" onclick="pesan()">Tambah ke Keranjang Yuks</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="choco cake.jpg" class="card-img-top" alt="Kue Coklat">
+                    <div class="card-body">
+                        <h5 class="card-title">Choco Cake</h5>
+                        <p class="card-text">Kue coklat pekat dengan lapisan coklat di atasnya beuhhh mantap.</p>
+                        <p class="fw-bold text-success">Rp 45.000</p>
+                        <button class="btn btn-outline-dark btn-sm w-100" onclick="pesan()">Tambah ke Keranjang Yuks</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function pesan() {
+            alert("Produk berhasil ditambahkan!");
+        }
+    </script>
+</body>
+</html>
